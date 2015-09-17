@@ -1,0 +1,23 @@
+{
+  "name": "reactjs.at",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgruebl/reactjs.at.git"
+  },
+  "author": "David Thomas Grübl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgruebl/reactjs.at/issues"
+  },
+  "homepage": "http://reactjs.at",
+  "scripts": {
+    "dev": "lessc --include-path='less' less/agency.less css/agency.css",
+    "build":  "lessc --clean-css='--s1 --advanced --compatibility=ie8' less/agency.less css/agency.css"
+  }
+}
